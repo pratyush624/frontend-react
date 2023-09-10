@@ -1,0 +1,73 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+// /** heading is actually a react element , which itself is javascript objects */
+// const heading = React.createElement(
+//   "h1",
+//   {
+//     id: "heading",
+//   },
+//   "Hello"
+// );
+
+// console.log(heading.props.children);
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// /** render method taking heading object and converting that into h1 tag and putting inside the root */
+// root.render(heading);
+
+// /**
+//  * * lets create nested structure
+//  * * <div id="parent">
+//  * *    <div id="child">
+//  * *      <h1>Iam h1 tag</h1>
+//  * *      <h2>Iam h2 tag</h2>
+//  * *    </div>
+//  * *  </div>
+//  */
+
+// const parent = React.createElement("div", { id: "parent" }, [
+//   React.createElement("div", { id: "child" }, [
+//     React.createElement("h1", {}, "Pratyush 🚀"),
+//     React.createElement("h2", {}, "Iam h2 tag"),
+//   ]),
+//   React.createElement("div", { id: "child" }, [
+//     React.createElement("h1", {}, "Iam h1 tag"),
+//     React.createElement("h2", {}, "Iam h2 tag"),
+//   ]),
+// ]);
+// root.render(parent);
+
+// React.createElement => ReactElement-Js Object => HTMLElement1(render)
+
+// JSX (transpiled before it reaches the JS) - Parcel - Babel
+// JSX => React.createElement => ReactElement-JS Object => HTMLElement(render)
+// const jsxHeading = <h1>Pratyush🚀</h1>;
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(jsxHeading);
+
+// React functional component/
+// function HeadingComponent() {
+//   return (
+//     <div className="container">
+//       <h1 className="heading">Pratyush🚀</h1>
+//     </div>
+//   );
+// }
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<HeadingComponent />);
+// function Heading() {
+//   return <h1>Hi there!</h1>;
+// }
+
+// function HeadingTwo() {
+//   return (
+//     <>
+//       <Heading />
+//       <h2>Pratyush🚀</h2>
+//     </>
+//   );
+// }
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<HeadingTwo />);
